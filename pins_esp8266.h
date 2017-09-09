@@ -17,6 +17,6 @@ static const uint8_t D7 = 13;
 static const uint8_t D5 = 14;
 static const uint8_t D8 = 15;
 static const uint8_t D0 = 16; //LED_BUILTIN - LED on the Nodemcu Board
-static const uint8_t A0 = 17; //analogRead() only range 0.1V - 1.0V
+static const uint8_t A0 = 17; //analogRead() only, range 0.1V - 1.0V
 
 #endif /* pins_esp8266_h */
