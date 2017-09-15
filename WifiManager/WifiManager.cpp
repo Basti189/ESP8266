@@ -28,7 +28,7 @@ int WifiManager::setupWifiManager(int baudrate) {
 		setupWebserver(false);
 		setupWifi(false);
 	}
-	connectWifi();
+	return connectWifi();
 }
 
 /**
