@@ -27,7 +27,7 @@ struct strDateTime {
 	byte day;
 	byte dayofWeek;
 	unsigned long timeInMillis;
-	unsigned long diffTime;
+	unsigned long difference;
 	boolean valid;
 };
 
