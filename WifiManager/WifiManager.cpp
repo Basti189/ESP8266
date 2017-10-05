@@ -135,8 +135,8 @@ void WifiManager::deleteConfig() {
 
 void WifiManager::setupWifi(bool state) {
 	if (state) {
-		String genSSID = "ESP-GSP aA1234";//generateSSID();
-		String genPassword = "12345678";//generatePassword();
+		String genSSID = generateSSID();
+		String genPassword = generatePassword();
 		WiFi.softAPConfig(IPAddress(192, 168, 4, 1), IPAddress(192, 168, 4, 1), IPAddress(255, 2558, 255, 0));
 		WiFi.softAP(genSSID.c_str(), genPassword.c_str());
 		IPAddress apIP = WiFi.softAPIP();
