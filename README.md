@@ -38,6 +38,25 @@ void setup() {
 
 void loop() {
  timeManager->sync(); // Wird zwar aufgerufen, aber nur alle 60 Sekunden wirklich ausgeführt
+ timeManager->getTimeAsString(); // <- hh:mm
+ timeManager->getDateAsString(); // <- dd.Monat.yyyy z.B. 5. Oktober 2017
+ timeManager->getTimeStampAsString(); // <- dd.MM.yyyy hh:mm
+ timeManager->getLocalTime(); // Gibt den 'struct' strDateTime zurück
  //TODO
 }
 ```
+
+struct strDateTime {
+	byte hour;
+	byte minute;
+	byte second;
+	int year;
+	byte month;
+	byte day;
+	byte dayofWeek;
+	unsigned long timeInMillis;
+	unsigned long difference;
+	boolean valid;
+};
+
+
