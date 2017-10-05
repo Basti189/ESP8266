@@ -47,16 +47,27 @@ void loop() {
 ```
 
 struct strDateTime {
+
 	byte hour;
+	
 	byte minute;
+	
 	byte second;
+	
 	int year;
+	
 	byte month;
+	
 	byte day;
+	
 	byte dayofWeek;
+	
 	unsigned long timeInMillis;
+	
 	unsigned long difference;
+	
 	boolean valid;
+	
 };
 
 
