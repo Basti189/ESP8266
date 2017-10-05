@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map for WifiManager
+# (formerly WifiManager)
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WifiManager	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setup	KEYWORD2
+reset	KEYWORD2
+getVersion	KEYWORD2
+getIP	KEYWORD2
+addListener	KEYWORD2
+getSSID KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
