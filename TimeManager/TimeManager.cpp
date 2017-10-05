@@ -302,7 +302,7 @@ strDateTime TimeManager::getNTPtime(float timeZone, boolean DayLightSaving) {
 			if (unixTime > 0) {
 				currentTimeStamp = adjustTimeZone(unixTime, timeZone, DayLightSaving);
 				dateTime = convertUnixTimestamp(currentTimeStamp);
-				dateTime.diffTime = currentTimeStamp - espTimeStamp;
+				dateTime.difference = currentTimeStamp - espTimeStamp;
 				_difference = currentTimeStamp - espTimeStamp;
 				dateTime.valid = true;
 			} else {
