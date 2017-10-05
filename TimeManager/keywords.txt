@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map for TimeManager
+# (formerly TimeManager)
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TimeManager	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+sync	KEYWORD2
+getLastSync	KEYWORD2
+getLocalTime	KEYWORD2
+getDateAsString	KEYWORD2
+getTimeAsString	KEYWORD2
+getTimeStampAsString	KEYWORD2
+setSyncInterval	KEYWORD2
+setSendInterval	KEYWORD2
+setRecvTimeout	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+strDateTime	LITERAL1
