@@ -6,7 +6,7 @@
 #define pins_esp8266_h
 
 static const uint8_t D3 = 0;
-static const uint8_t D4 = 2; //LED on ESP8266 Modul
+static const uint8_t D4 = 2; //LED on ESP8266 Modul - Needed for upload BIn to flash
 static const uint8_t RX = 3; //Serial console input, can be used but you can't send any command to the board
 static const uint8_t D2 = 4;
 static const uint8_t D1 = 5;
